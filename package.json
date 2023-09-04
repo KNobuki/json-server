@@ -1,24 +1,19 @@
 {
-  "name": "nodejs-sandbox",
+  "name": "json-server-deploy",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "Simple json database to deploy to the host of your choice",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
-  },
-  "keywords": [],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
-  },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  },
-  "dependencies": {}
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "author": "Jesper Orb",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "json-server": "^0.16.2"
+  }
 }
