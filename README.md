@@ -1,10 +1,15 @@
-# Node.js template
+# 概要
+Next.jsアプリケーション用のAPIサーバー
 
-This is a Node.js project.
+# 起動方法
 
-Add your [configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
+```bash
+npm ci
+npm start
+```
 
-## Resources
+# API呼び出し方法
 
-- [CodeSandbox — Docs](https://codesandbox.io/docs/learn)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
+```bash
+curl -X GET -i http://localhost:8000/users
+```
