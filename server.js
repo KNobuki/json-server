@@ -9,9 +9,9 @@ const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 8000;
 const authUser = {
   id: '1',
-  username: 'taketo',
-  displayName: 'Taketo Yoshida',
-  email: 'taketo@example.com',
+  username: 'shotaro',
+  displayName: 'Shotaro Kondo',
+  email: 'shotaro@example.com',
   profileImageUrl: '/users/1.png',
   description:
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
