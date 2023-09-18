@@ -12,7 +12,7 @@ const authUser = {
   username: 'shotaro',
   displayName: 'Shotaro Kondo',
   email: 'shotaro@example.com',
-  profileImageUrl: '/users/1.png',
+  profileImageUrl: '/users/shotaro.png',
   description:
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
 };
